@@ -33,6 +33,13 @@ hr {
 
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+   color: #EAF6F6; 
 }
 
 p {
@@ -56,7 +63,9 @@ p {
 }
 
 .bottom-container {
-    
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+
 }
 
 .skill-row {
@@ -78,7 +87,8 @@ p {
     margin-right: 30px;
 }
 .contact-message {
-    
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 .top-cloud {
@@ -102,7 +112,7 @@ p {
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -117,4 +127,11 @@ p {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
+  }
+
+  .copyright {
+    color: #EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem;
+    padding: 20px 0;
   }
